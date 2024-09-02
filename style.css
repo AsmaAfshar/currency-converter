@@ -1,0 +1,53 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    background-color:grey ;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1{
+    text-align: center;
+    color: #888;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-top: 10px;
+    color: rgb(6, 56, 56);
+}
+
+select, input{
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+button{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(95, 95, 240);
+    color:white;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+button:hover{
+    background-color: rgb(95, 95, 240);
+}
+ressult{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: blanchedalmond;
+    text-align: center;
+}
